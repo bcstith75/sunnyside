@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+  @apply font-barlow
+}
+
+#hero {
+  background-size: cover;
+  background-repeat: no-repeat
+}
+
+.section-background {
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.active-nav {
+  @apply bg-white rounded-full px-4 py-2 text-black
+}
+
+.section-container {
+  @apply   max-w-6xl mx-auto text-center px-10;
+}
